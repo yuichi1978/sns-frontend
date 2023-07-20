@@ -41,7 +41,7 @@ const Timeline = () => {
           <form onSubmit={handleSubmit}>
             <textarea
               className="w-full h-24 p-2 border border-gray-300 rounded resize-none focus:outline-none focus:ring-2 focus:ring-gray-300"
-              placeholder="What's on your mind?"
+              placeholder="投稿ボタンにメッセージを入力してください。"
               value={postText}
               onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setPostText(e.target.value)}
             ></textarea>
